@@ -1,0 +1,23 @@
+h1 {
+    display: inline-block;
+    margin: 50px;
+    font-size: 80pt;
+    font-family: 'Special Elite', cursive;
+    color: hsla(0, 0%, 22%, 1);
+}
+
+header {
+    background-color: hsla(31, 88%, 65%, 1);
+    height: 200px;
+    text-align: center;
+}
+
+#profile {
+    position: relative;
+    float: right;
+    border-radius: 50%;
+    height: 130px;
+    width: 120px;
+    margin: 25px 50px;
+    border: hsla(0, 0%, 22%, 1) 10px solid;
+}
