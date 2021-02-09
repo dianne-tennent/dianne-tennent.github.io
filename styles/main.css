@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color:hsl(210, 30%, 85%)
 }
 
 p {
@@ -26,7 +25,13 @@ h2 {
 h3 {
     font-family: 'Poiret One', cursive;
     color: 	hsl(210, 30%, 30%);
-    font-size: 40px;
+    font-size: 50px;
+}
+
+h4 {
+    font-family: 'Poiret One', cursive;
+    color: 	hsl(210, 30%, 30%);
+    font-size: 30px;
 }
 
 header {
@@ -61,6 +66,20 @@ a:hover {
 main {
     padding: 50px;
 }
+
+section {
+    height: 200px;
+    padding: 20px;
+}
+
+.light {
+    background-color:hsl(210, 30%, 95%)
+}
+
+.dark {
+    background-color: hsl(210, 30%, 90%);
+}
+
 #profile {
     position: relative;
     float: right;
