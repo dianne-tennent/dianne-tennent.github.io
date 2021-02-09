@@ -1,15 +1,36 @@
+body {
+    margin: 0;
+}
+
 h1 {
-    display: inline-block;
-    margin: 50px;
-    font-size: 80pt;
-    font-family: 'Special Elite', cursive;
-    color: hsla(0, 0%, 22%, 1);
+    font-family: 'Poiret One', cursive;
+    color: 	hsl(210, 30%, 30%);
+    font-size: 100px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Poiret One', cursive;
+    color: 	hsl(210, 30%, 30%);
+    font-size: 20px;
+    margin: 0 0 0 5px;
 }
 
 header {
-    background-color: hsla(31, 88%, 65%, 1);
-    height: 200px;
+    background-color: rgba(245, 223, 77);
+    height: 150px;
+    padding: 40px 0 0 40px;;
+}
+
+nav {
+    background-color: hsl(210, 30%, 30%);
     text-align: center;
+    font-family: 'Poiret One', cursive;
+    padding: 10px 0 10px 0;
+}
+
+.navlink {
+    color: 	hsl(52, 89%, 70%);
 }
 
 #profile {
@@ -18,6 +39,6 @@ header {
     border-radius: 50%;
     height: 130px;
     width: 120px;
-    margin: 25px 50px;
-    border: hsla(0, 0%, 22%, 1) 10px solid;
+    margin-right: 100px;
+    border: hsla(0, 0%, 22%, 1) 5px solid;
 }
