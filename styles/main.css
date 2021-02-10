@@ -105,12 +105,14 @@ section {
     background-color: hsl(210, 30%, 90%);
 }
 
-#profile {
-    position: relative;
-    float: right;
-    border-radius: 50%;
-    height: 130px;
-    width: 120px;
-    margin-right: 100px;
-    border: hsla(0, 0%, 22%, 1) 5px solid;
+ul {
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
+figcaption {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10pt;  
+}
+
