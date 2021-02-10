@@ -48,6 +48,11 @@ header {
     padding: 40px 0 0 40px;
 }
 
+.fixed-header {
+    width: 100%;
+    position: fixed;
+}
+
 .icon {
     position: absolute;
     margin-left: 950px;
@@ -77,6 +82,7 @@ a:hover {
 
 main {
     padding: 0 50px 50px 50px;
+    margin-top: 232px;
 }
 
 section {
