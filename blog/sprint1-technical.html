@@ -2,7 +2,7 @@
   <head>
     <title>My blog</title>
     <meta charset="UTF-8">
-    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Righteous&display=swap" rel="stylesheet">
     </head>
@@ -27,7 +27,51 @@
       <h3>Inline VS Inline-Block</h3>
 
           <section class="light">
-          <h4>What is flexbox?</h4>
+          <h4>Inline</h4>
+          <p>When elements display inline, they sit within a line on the page and allow other elements to sit next to them on either side. You cannot adjust the width or height of an inline element, and margins will only apply to the left and right of the element(Padding will still apply).</p>
+          <p>An important thing to remember is that an inline element cannot contain a block-level element.</p>
+          <p>Examples of elements that display inline by default are:</p>
+          <ul>
+            <li>&lt;img&gt;</li>
+            <li>&lt;a&gt;</li>
+            <li>&lt;input&gt;</li>
+            <li>&lt;span&gt;</li>
+            <li>&lt;time&gt;</li>
+          </ul>
+
+          <figure>
+            <img src="../images/display-inline.png">
+            <figcaption>A &lt;span&gt; element that displays inline by default. As you can see, the padding on inline elements doesn’t affect the height of the line of text.</figcaption>
+          </figure>
+
+          <h4>Block</h4>
+          <p>When elements display as "block", this means that they will be the only element that displays on that line. No other elements can sit beside them. Block elements allow you to adust their width and height, and margin/padding will apply on all sides.</p>
+          <p>Examples of elements that display as "block" by default are:</p>
+          <ul>
+            <li>&lt;div&gt;</li>
+            <li>&lt;main&gt;</li>
+            <li>&lt;h&gt;</li>
+            <li>&lt;article&gt;</li>
+            <li>&lt;aside&gt;</li>
+            <li>&lt;li&gt;</li>
+            <li>&lt;p&gt;</li>
+          </ul>
+
+          <figure>
+            <img src="../images/display-block.png">
+            <figcaption>A &lt;span&gt; element that has the CSS rule "display: block;" applied to it.</figcaption>
+          </figure>
+
+          <h4>Inline-Block</h4>
+          <p>With inline-block, you basically have an inline element that allows other elements to sit next to it, while still being able to adjust the width and height, and also add margins to all sides.</p>
+          <p>A common use of inline-block is when you want buttons to display side by side, but still be able to add formatting to them.</p>
+          <p>Another useful application is where you have a block level element but you want other elements to sit next to it. It basically does what the float property does.</p>
+
+          <figure>
+            <img src="../images/display-inline-block.png">
+            <figcaption>A &lt;span&gt; element that has the CSS rule "display: inline-block;" applied to it.</figcaption>
+          </figure>
+
 
         </section>
         </main>
