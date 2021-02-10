@@ -3,8 +3,9 @@ body {
 }
 
 p {
-    font-size: 14pt;
+    font-size: 12pt;
     font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5em;
 }
 
 .center {
@@ -28,21 +29,21 @@ h2 {
 }
 
 h3 {
-    font-family: 'Righteous', cursive;
+    font-family: 'Poppins', sans-serif;
     color: 	hsl(210, 30%, 30%);
-    font-size: 50px;
+    font-size: 22pt;
     text-align: center;
     margin: 20px 0;
 }
 
 h4 {
-    font-family: 'Righteous', cursive;
+    font-family: 'Poppins', sans-serif;
     color: 	hsl(210, 30%, 30%);
-    font-size: 30px;
+    font-size: 20pt;
 }
 
 h5 {
-    font-family: 'Righteous', cursive;
+    font-family: 'Poppins', sans-serif;
     color: 	hsl(210, 30%, 30%);
     font-size: 18pt;
 }
@@ -92,10 +93,12 @@ main {
 
 section {
     padding: 40px;
+    width: 600px;
+    margin: auto;
 }
 
 .light {
-    background-color:hsl(210, 30%, 95%)
+    background-color: hsl(210, 30%, 95%);
 }
 
 .dark {
