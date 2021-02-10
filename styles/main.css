@@ -26,12 +26,20 @@ h3 {
     font-family: 'Poiret One', cursive;
     color: 	hsl(210, 30%, 30%);
     font-size: 50px;
+    text-align: center;
+    margin: 20px 0;
 }
 
 h4 {
     font-family: 'Poiret One', cursive;
     color: 	hsl(210, 30%, 30%);
     font-size: 30px;
+}
+
+h5 {
+    font-family: 'Poiret One', cursive;
+    color: 	hsl(210, 30%, 30%);
+    font-size: 18pt;
 }
 
 header {
@@ -59,17 +67,20 @@ nav {
     margin: 0 10px 0 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:hover {
-    color: 	hsl(52, 89%, 100%);
+    color:hsl(52, 89%, 70%);
 }
 
 main {
-    padding: 50px;
+    padding: 0 50px 50px 50px;
 }
 
 section {
-    height: 200px;
-    padding: 20px;
+    padding: 40px;
 }
 
 .light {
