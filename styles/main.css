@@ -3,7 +3,7 @@ body {
 }
 
 p {
-    font-size: 12pt;
+    font-size: 14pt;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.5em;
 }
@@ -54,6 +54,10 @@ header {
     padding: 20px;
 }
 
+h3, h4, h5 {
+    text-align: center;
+}
+
 #heading {
     display: inline-block;
 }
@@ -98,7 +102,11 @@ a:hover {
 }
 
 main {
-    padding: 0 50px 50px 50px;
+    /* height: 100%;
+    background-image: url("../images/about-me.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y; */
 }
 
 .container {
