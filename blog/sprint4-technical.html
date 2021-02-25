@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My blog</title>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img id="swan" src="../images/swan.png">
+      <h1>Dianne Tennent</h1>
+      <h2>My journey to becoming a developer.</h2>
+    </header>
+    <nav>
+      <a class="navlink" href="../index.html">Home</a>
+      <a class="navlink" href="../about.html">About</a>
+      <a class="navlink" href="../core.html">Core</a>
+      <a class="navlink" href="../tech.html">Technical</a>
+    </nav>
+    <main>
+
+      <div class="row">
+        <div class="column middle">
+          <section class="light">
+            <h3>Problem Solving Techniques</h3>
+            <p class="center">25-Feb-2021
+            </p>
+            <hr>
+            <h4 class="center">No problem too big! Here is a list of techniques to try when you just can't quite figure it out:</h4>
+            <h4>Pseudocode</h4>
+            <p>Always helps! So many times I've tried to work out the code in my head and I've missed a key element of the problem. As soon as I start writing out what needs to be done, I can break down the problem into it's smaller parts and work it out from there. Quite often the code I write will be quite different to the pseudocode, but writing the pseudocode is still a really important step in the process.</p>
+            <h4>Trying something</h4>
+            <p>Definitely! No harm in hitting that run button just to see if your solution margically works. Though it's important to make sure you actually understand why it works!</p>
+            <h4>Rubber ducky method</h4>
+            <p>Love this method. This works really well in real life too. How many times have you started explaining your problem to someone and half way through telling them about it, you've already figured it out? Invaluable. </p>
+            <h4>Reading error messages</h4>
+            <p>These are becoming clearer slowly. I'm starting to understand how some methods might give me the wrong type of data, so it's important to check the documentation and make sure you're using the right method.</p>
+            <h4>Console.logging</h4>
+            <p>Fabulous. Always helps me to check that my code is actually doing what I think it's doing!</p>
+            <h4>Googling</h4>
+            <p>What a great resource! There are so many articles and tutorials out there. My favourite site is still w3schools. And Stack Overflow can be really helpful too!</p>
+            <h4>Asking your peers for help</h4>
+            <P>I think this is a realy good habit to get into and I try to help others as much as I can. </P>
+            <h4>Asking coaches for help</h4>
+            <p>Always reliable! I like the way the facilitators help you work through your own problem, rather than just give you the answer.</p>
+            <h4>Improving your process with reflection</h4>
+            <p>It was really helpful to revisit some of the more challenging exercises and remember where I successfully used some of the above techniques!</p>
+          </section>
+        </div>
+        <div class="column side">
+          <aside>
+            <h5 class="center" style="background-color: rgba(245, 223, 77); padding: 10px;">Putting it into practice</h5>
+            <h6>The problem:</h6>
+            <p>I could see from the tests that the function had to handle both lowercase and uppercase versions of the word “buzz”.</p>
+            <h6>The technique:</h6>
+            <p>I looked at the tests to see what input was being tested so that I knew what to include.</p>
+            <h6>The feeling:</h6>
+            <p>I felt really proud of the way I was able to include the .toLowerCase() method within the condition so that it was catching all instances of the word “buzz”, rather than making it a separate line of code to convert the input and then check the condition separately.</p>
+            <h6>The takeway:</h6>
+            <p>I learned that looking at the tests helps you to write good code. </p>
+            <hr>
+            <h6>The problem:</h6>
+            <p>My loop wasn’t removing the words from the list that I wanted it to.
+
+            </p>
+            <h6>The technique:</h6>
+            <p>I googled ways of removing items from arrays and tried a few different methods. I console logged at various points in the code to find out what it was actually doing. In the end I was able to solve my problem by reading through a really great article that went through various methods for removing items from arrays. The problem was that I had skimmed the article and missed a key bit of info. When I reread it thoroughly, I found that there was a problem with using a loop to remove items from a list, because when you remove an item, then that index number disappears, and so when you increment the index with the loop, you actually end up skipping one of the items in the list. So I was able to solve that by decrementing the index if I was removing an item. 
+            </p>
+            <h6>The feeling:</h6>
+            <p>When I showed my code to my facilitator he said it all looked good and couldn’t figure out the problem. This made me feel good because someone who was more experienced than me was having the same trouble. Then I felt really proud when I managed to fix it by myself. Although he was really helpful and instrumental in helping me to think through the problem and isolate the area that wasn’t working. </p>
+            <h6>The takeway:</h6>
+            <p>I think that loops have their limitations, and that at times it may be better to use the in-built array methods such as map() and forEach(). I also learned that it’s important to know what output and parameters the inbuilt methods have. </p>
+          </aside>
+        </div>
+    </main>
+    <footer>
+    
+    </footer>
+    
+  </body>
+</html>

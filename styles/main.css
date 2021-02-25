@@ -49,13 +49,15 @@ h5 {
     font-size: 18pt;
 }
 
+h6 {
+    font-size: 16pt;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
 header {
     background-color: rgba(245, 223, 77);
     padding: 20px;
-}
-
-h3, h4, h5 {
-    text-align: center;
 }
 
 #heading {
@@ -102,11 +104,7 @@ a:hover {
 }
 
 main {
-    /* height: 100%;
-    background-image: url("../images/about-me.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat-y; */
+    padding: 20px;
 }
 
 .container {
@@ -165,4 +163,22 @@ figcaption {
     padding: 10px;
     width: 450px;
 }
+
+.column {
+    float: left;
+}
+
+.column.side {
+    width: 40%;
+}
+
+.column.middle {
+    width: 60%;
+
+}
+
+aside {
+
+}
+
 
