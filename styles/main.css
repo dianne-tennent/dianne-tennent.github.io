@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+
 body {
     margin: 0;
     background-image: url('../images/about-me.jpg');
@@ -18,8 +20,8 @@ li {
 }
 
 h1 {
-    font-family: 'Poiret One', cursive;
-    color: 	hsl(210, 30%, 30%);
+    font-family: 'Montez', cursive;
+    color: 	black;
     font-size: 100px;
     margin: 0;
     display: inline-block;
@@ -27,16 +29,15 @@ h1 {
 }
 
 h2 {
-    font-family: 'Poiret One', cursive;
-    color: 	hsl(210, 30%, 30%);
-    font-size: 20px;
+    font-family: 'Montez', cursive;
+    color: 	black;
+    font-size: 25px;
     margin: 0 0 0 5px;
     
 }
 
 h3 {
     font-family: 'Poppins', sans-serif;
-    color: 	hsl(210, 30%, 30%);
     font-size: 22pt;
     text-align: center;
     margin: 20px 0;
@@ -44,13 +45,11 @@ h3 {
 
 h4 {
     font-family: 'Poppins', sans-serif;
-    color: 	hsl(210, 30%, 30%);
     font-size: 20pt;
 }
 
 h5 {
     font-family: 'Poppins', sans-serif;
-    color: 	hsl(210, 30%, 30%);
     font-size: 18pt;
 }
 
@@ -82,7 +81,7 @@ figcaption {
 }
 
 nav {
-    background-color: hsl(210, 30%, 30%);
+    background-color: black;
     text-align: end;
     font-family: 'Poiret One', cursive;
     font-size: 14pt;
@@ -94,6 +93,8 @@ section {
     padding: 20px;
     width: 600px;
     margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 main {
@@ -102,6 +103,7 @@ main {
 
 a {
     text-decoration: none;
+    color: #292992;
 }
 
 a:hover {
@@ -110,6 +112,11 @@ a:hover {
 
 a.navlink:hover {
     color: white;
+}
+
+.footer {
+    height: 200px;
+    background-color: black;
 }
 
 .page-header {
